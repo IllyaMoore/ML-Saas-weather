@@ -7,9 +7,9 @@ from flask import Flask, jsonify, request
 from datetime import datetime
 import google.generativeai as genai
 
-API_TOKEN = "H123"
-RSA_API_KEY = "67056824d05a455eb9d152559241502"
-GEMINI_API_KEY = "AIzaSyAqTUVnoP_fFhh0qrDsJjqkfQK5LhNrWu8"
+API_TOKEN = ""
+RSA_API_KEY = ""
+GEMINI_API_KEY = ""
 
 genai.configure(api_key=GEMINI_API_KEY)
 
